@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename compilation unit &apos;Exception4.java&apos; to &apos;Cleanup.java&apos;&#x0D;&#x0A;- Original project: &apos;Cleanup&apos;&#x0D;&#x0A;- Original element: &apos;Exception4.java&apos;&#x0D;&#x0A;- Renamed element: &apos;Cleanup.java&apos;" description="Rename compilation unit &apos;Exception4.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{Exception4.java" name="Cleanup.java" references="false" stamp="1590612970360" version="1.0"/>
-</session>

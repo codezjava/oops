@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename compilation unit &apos;employeedb.EmpCreatebatabase.java&apos; to &apos;EmpCreatedatabase.java&apos;&#x0D;&#x0A;- Original project: &apos;Employeedb&apos;&#x0D;&#x0A;- Original element: &apos;employeedb.EmpCreatebatabase.java&apos;&#x0D;&#x0A;- Renamed element: &apos;employeedb.EmpCreatedatabase.java&apos;" description="Rename compilation unit &apos;EmpCreatebatabase.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;employeedb{EmpCreatebatabase.java" name="EmpCreatedatabase.java" references="false" stamp="1607552569021" version="1.0"/>
-</session>
