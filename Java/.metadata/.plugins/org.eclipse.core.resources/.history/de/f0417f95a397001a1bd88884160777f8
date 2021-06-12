@@ -1,0 +1,22 @@
+class Example {
+	 void mark(int m) {
+		 try {
+		if (m > 35) {
+
+			throw new ArithmeticException("pass");
+		} 
+		 }
+		catch(ArithmeticException e)
+		{
+			System.out.println(e);
+			throw e;
+		}
+	}
+}
+
+public class Trycatch {
+	public static void main(String[] args) {
+		Example e1=new Example();
+		e1.mark(4);
+	}
+}

@@ -1,0 +1,93 @@
+package arraytechniques;
+
+ class ArrayTech {
+	 
+	  static int intCount(int[] array) {
+			int arrayCount = 0;
+
+			for (int c : array) {
+				arrayCount = +arrayCount;
+				arrayCount++;
+			}
+       
+			return arrayCount;
+		
+		  }
+	  static int[] duplicateNumber(int[] array) {
+		  
+			return array;
+		}
+	  static int[] similarNumber(int[] array) {
+			return array;
+		}
+	  static int[] ascendingNumber(int[] array) {
+			return array;
+		}
+	  static int[] descendingNumber(int[] array) {
+			return array;
+		}
+	  static String[] ascendingString(String[] array) {
+			return array;
+		}
+	  static String[] descendingString(String[] array) {
+			return array;
+		}
+	  static int randomNumber(int[] array) {
+			return 0;
+		}
+	  static int[] greaterThan(int[] array, int value) {
+			return array;
+		}
+	  static int[] lesserThan(int[] array, int value) {
+			return array;
+		}
+	  static int maximumNumber(int[] array) {
+			return 0;
+		}
+	  static int minimumNumber(int[] array) {
+			return 0;
+		}
+	  static int arraySum(int[] array) {
+		  int sum=0,avr;
+			int arr[]=new int[] {1,2,3,4,5};
+			for(int i=0;i<arr.length;i++) {
+				sum+=arr[i];
+			}
+			avr=sum/5;
+			return 0;
+		}
+	  static int[] arrayOdd(int[] array) {
+			return array;
+		}
+	  static int[] arrayEven(int[] array) {
+			return array;
+		}
+	  static String stringSearch(String[] array) {
+			return "Found";
+		}
+	  static int numberSearch(int[] array) {
+			return 0;
+	  }
+	 static boolean checkArray(int[] array) {
+			return false;
+			}
+}
+public class ArrayTechniques
+{
+  public static void main(String[] arg) {
+	  int arr[]= {1,2,3,4,5,6,7,8,9};
+	  String str1[]= {"viji","rani","nandhini"};
+	  String str2[]= {"aswini","sound"};
+	  
+	 
+	  System.out.println(ArrayTech.intCount(arr));
+	  
+	  System.out.println(ArrayTech.arraySum(arr));
+	  
+	}
+			
+}
+
+
+	
+ 

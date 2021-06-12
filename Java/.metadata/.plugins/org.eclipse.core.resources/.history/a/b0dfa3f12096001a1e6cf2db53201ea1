@@ -1,0 +1,25 @@
+
+public class Arithmeticexception {
+
+	public static void main(String arg[]) {
+		try {
+			int n1 = 30, n2 = 0, n3;
+			n3 = n1 / n2;
+			System.out.println(n3);
+			try {
+				int a[]=new int[5];
+				a[4]=3/0;
+				System.out.println(a[4]);
+			}catch (ArrayIndexOutOfBoundsException  e) {
+            System.out.println("Array Index Not Found");
+		} catch (ArithmeticException e) {
+			System.out.println("You should not divide a number by zero");
+		 } catch (Exception e) {
+	            System.out.println("Some Exception");
+	        }  
+		}
+		finally {
+            System.out.println("Final Block");
+       }
+	}
+}

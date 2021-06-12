@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class Ioexception {
+public static void main(String arg[])
+{
+	String s="viji";
+	Scanner sc=new Scanner(s);
+	System.out.println(""+sc.ioException());
+}
+}

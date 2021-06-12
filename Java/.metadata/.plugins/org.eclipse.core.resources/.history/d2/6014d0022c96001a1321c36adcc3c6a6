@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class Numbernotfound {
+public static void main(String arg[])
+{
+	String s="viji";
+	Scanner sc=new Scanner(System.in);
+	System.out.println(""+sc.ioException());
+}
+}

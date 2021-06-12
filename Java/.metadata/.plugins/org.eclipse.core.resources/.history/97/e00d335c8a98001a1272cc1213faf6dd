@@ -1,0 +1,25 @@
+class MyException extends Exception{
+	MyException(String s)
+	{
+		super(s);
+	}
+	public String toString() {
+		return(""+getMessage());
+	}
+}
+class ThrowClass{
+	int age;
+	ThrowClass(int age)throws MyException{
+		this.age=age;
+	}
+	void getAge(int age)throws MyException{
+		if(age<18) {
+			throw new MyException("Invalid age");
+		}else {
+			this.age=age;
+		}
+	}
+}
+public class OwnException {
+
+}

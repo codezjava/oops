@@ -1,0 +1,28 @@
+class CustomException extends Exception
+{
+	private String message=null;
+	public CustomException()
+	{
+		super();
+	}
+	public CustomException(String message)
+	{
+		super(message);
+		this.message=message;
+	}
+		public CustomException(Throwable cause)
+		{
+			super(cause);
+		}
+		public String toString()
+		{
+			return message;
+		}
+		public String getMessage()
+		{
+			return message;
+	}
+}
+public class OwnException2 {
+
+}

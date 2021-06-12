@@ -1,0 +1,21 @@
+
+public class ThrowException {
+	static void age(int a) {
+		try {
+			new ArithmeticException("registration only above 18...");
+			if (a > 18) {
+				System.out.println("registration over...");
+			}
+		} catch (ArithmeticException e) {
+			throw e;
+		}
+	}
+
+	public static void main(String arg[]) {
+		try {
+			age(66);
+		} catch (ArithmeticException e) {
+			System.out.println(e);
+		}
+	}
+}

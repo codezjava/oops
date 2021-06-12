@@ -1,0 +1,17 @@
+import java.io.*;
+
+public class Filenotfound {
+	public static void main(String[] arg)
+	{
+		FileReader file=null;
+		try
+		{
+			file=new FileReader("viji.txt");
+		}
+		catch(FileNotFoundException e)
+		{
+			System.out.println(e.getMessage());
+		}
+	}
+
+}

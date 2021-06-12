@@ -1,0 +1,23 @@
+class Try {
+	 void mark(int m) {
+		 try {
+		if (m > 35) {
+
+			throw new ArithmeticException("pass");
+		} else {
+			System.out.println("fail");
+		}
+		 }
+		catch(ArithmeticException e)
+		{
+			throw e;
+		}
+	}
+}
+
+public class Trycatch {
+	public static void main(String[] args) {
+		Try t=new Try();
+		t.mark(44);
+	}
+}

@@ -1,0 +1,16 @@
+package arraytechniques;
+
+public class ArrayTechniques {
+public static void main(String[] arg) {
+	int intArray[];
+	long longArray[];
+	String stringArray[];
+	boolean booleanArray[];
+	short shortArray[];
+	float floatArray[];
+	double doubleArray[];
+	byte byteArray[];
+	char charArray[];
+	
+}
+}

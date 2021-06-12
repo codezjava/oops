@@ -1,0 +1,24 @@
+package arraytechniques;
+
+public class ArrayTechniques {
+public static void main(String[] arg) {
+	  int array[]= {2,4,6,7,8};
+}
+	  
+			  static int intCount(int[] array) {
+				int arrayCount = 0;
+
+				for (int c : array) {
+					arrayCount = +arrayCount;
+					arrayCount++;
+					   System.out.println(c);
+				}
+             
+				return arrayCount;
+			
+			  }
+
+}
+
+	
+ 
